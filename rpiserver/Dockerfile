@@ -1,4 +1,4 @@
-FROM arm32v7/python
+FROM arm32v7/python:3.7.17-bookworm
 RUN apt-get update \
 && apt-get install build-essential -y \
 && pip install poetry
